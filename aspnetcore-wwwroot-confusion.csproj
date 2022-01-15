@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>aspnetcore_wwwroot_confusion</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- NOTE: The directory does not even need to be included for the issue to come up. -->
+<!--    <Folder Include="wwwroot" />-->
+  </ItemGroup>
+
+</Project>
